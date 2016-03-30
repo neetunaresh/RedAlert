@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+     <WebView
+        android:id="@+id/webView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+ <Button
+         android:id="@+id/button2"
+         android:layout_width="100dp"
+         android:layout_height="40dp"
+         android:layout_alignParentLeft="true"
+         android:layout_alignTop="@+id/webView1"
+         android:layout_marginTop="96dp"
+         android:background="@drawable/btn"
+         android:onClick="login"
+         android:text="Login"
+         android:textColor="#fff" />
+
+     <Button
+         android:id="@+id/button3"
+         android:layout_width="100dp"
+         android:layout_height="40dp"
+         android:layout_alignBaseline="@+id/button1"
+         android:layout_alignBottom="@+id/button1"
+         android:layout_toRightOf="@+id/button1"
+         android:background="@drawable/btn"
+         android:onClick="about"
+         android:text="About Us"
+         android:textColor="#fff" />
+
+     <Button
+         android:id="@+id/button1"
+         android:layout_width="100dp"
+         android:layout_height="40dp"
+         android:layout_alignBaseline="@+id/button2"
+         android:layout_alignBottom="@+id/button2"
+         android:layout_toRightOf="@+id/button2"
+         android:background="@drawable/btn"
+         android:onClick="user"
+         android:text="New User"
+         android:textColor="#fff" />
+</RelativeLayout>

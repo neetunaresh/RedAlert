@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Red</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_reg">Reg</string>
+    <string name="title_activity_list">List</string>
+    <string name="title_activity_ngo">Ngo</string>
+    <string name="title_activity_education">Education</string>
+    <string name="title_activity_hospital">Hospital</string>
+    <string name="title_activity_security">Security</string>
+    <string name="title_activity_admlist">Admlist</string>
+    <string name="title_activity_admngo">Admngo</string>
+    <string name="title_activity_admeducation">Admeducation</string>
+    <string name="title_activity_admhospital">Admhospital</string>
+    <string name="title_activity_admsecurity">Admsecurity</string>
+    <string name="title_activity_complaint">Complaint</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_about">About</string>
+
+</resources>
