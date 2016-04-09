@@ -14,3 +14,7 @@ On pressing the help button, the notification will be sent to the security staff
 
 Based on the location tracked by the user the near by police stations names will be displayed in the list.
 Feedback can be obtained by the user.
+
+#Related video link fro this Application
+
+https://youtu.be/8l1ByKVxaNM : Red Alert- IBM TGMC 2k16
